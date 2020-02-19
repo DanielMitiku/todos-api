@@ -1,24 +1,30 @@
-# README
+# Todos-API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a tutorial made to build a RESTful JSON API With Rails with JWT authentication. It is based on this article - https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-two
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby
+- Rails API Only
+- JWT
+- JSON
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+- Clone this repository to your local machine using `git clone https://github.com/DanielMitiku/todos-api.git`.
 
-* Database initialization
+- Run `cd todos-api` to move into the app directory.
 
-* How to run the test suite
+- Run `bundle install` to install all the dependencies.
 
-* Services (job queues, cache servers, search engines, etc.)
+- Run `rails db:migrate` to migrate the database.
 
-* Deployment instructions
+- Run `rails s` to start the server.
 
-* ...
+## Contributor
+
+👤 **Daniel Mitiku**
+
+- Github: [@danielmitiku](https://github.com/DanielMitiku)
