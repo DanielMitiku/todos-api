@@ -23,6 +23,14 @@ To get a local copy up and running follow these simple example steps.
 
 - Run `rails s` to start the server.
 
+## Examples using httpie
+
+- To signup `http :3000/signup name=daniel email=daniel@daniel.com password=foobar password_confirmation=foobar`. This will return authorization token.
+
+- To create todos `http POST :3000/todos title=todo1 Authorization:'put authorization token here'`
+
+- Getting todos `http :3000/todos Authorization:'put authorization token here'`.
+
 ## Contributor
 
 👤 **Daniel Mitiku**
