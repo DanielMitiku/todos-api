@@ -1,4 +1,4 @@
-# Calculator-React
+# Todos-API
 
 > This is a tutorial made to build a RESTful JSON API With Rails with JWT authentication. It is based on this article - https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-two
 
